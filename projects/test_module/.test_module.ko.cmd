@@ -1,0 +1,1 @@
+cmd_/home/dsv/projects/test_module/test_module.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.38-8-generic/scripts/module-common.lds --build-id  -o /home/dsv/projects/test_module/test_module.ko /home/dsv/projects/test_module/test_module.o /home/dsv/projects/test_module/test_module.mod.o
